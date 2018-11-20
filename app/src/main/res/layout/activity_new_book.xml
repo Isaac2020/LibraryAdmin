@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".activities.NewBookActivity">
+
+    <EditText
+        android:id="@+id/title_field"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:hint="Book's Title"/>
+
+    <EditText
+        android:id="@+id/author_field"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Book's Author"/>
+
+    <EditText
+        android:id="@+id/ispnNumber_field"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Book's ISPN Number"/>
+
+    <EditText
+        android:id="@+id/detail_field"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Details/Description"
+        android:inputType="textLongMessage"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/cancleBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/submitBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

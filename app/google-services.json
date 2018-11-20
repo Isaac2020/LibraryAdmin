@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "301626074497",
+    "firebase_url": "https://fut-minna-library.firebaseio.com",
+    "project_id": "fut-minna-library",
+    "storage_bucket": "fut-minna-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301626074497:android:05ed65953381bd35",
+        "android_client_info": {
+          "package_name": "com.gdgminna.android.futminnalibraryadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301626074497-7qnfee5r1angp45avbj69fvrqis5vhn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbZ7CgALwvy4YFNfQ_GqpqKPVRkXdlTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
